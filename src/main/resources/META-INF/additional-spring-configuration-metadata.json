@@ -1,0 +1,23 @@
+{
+  "properties": [
+    {
+      "name": "spring.datasource.initialize",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.initialize."
+    },
+    {
+      "name": "candidate.pass",
+      "type": "java.lang.String",
+      "description": "Description for candidate.pass."
+    },
+    {
+      "name": "candidate.name",
+      "type": "java.lang.String",
+      "description": "Description for candidate.name."
+    },
+    {
+      "name": "resume.special",
+      "type": "java.lang.String",
+      "description": "Description for resume.special."
+    }
+  ] }

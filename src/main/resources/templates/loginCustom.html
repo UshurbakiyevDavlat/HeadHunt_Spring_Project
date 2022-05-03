@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<header th:insert="/fragments/header.html :: head"></header>
+<body>
+<form action="#" th:action="@{/sign_in}" th:object="${candidates}" method="post">
+    <table border="1">
+        <tr>
+            <td><label>Input name</label></td>
+            <td>
+                <label>
+                    <input type="text" id="clientName" name="clientName"/>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Input password</label></td>
+            <td>
+                <label>
+                    <input type="password" id="pass" name="pass"/>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Submit"/></td>
+        </tr>
+    </table>
+</form>
+
+<footer th:insert="/fragments/footer.html :: footer"></footer>
+</body>
+</html>
